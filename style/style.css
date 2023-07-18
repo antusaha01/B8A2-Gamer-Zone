@@ -1,0 +1,51 @@
+/* common style start */
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans;
+
+}
+/* common style end */
+
+/* navbar style start  */
+nav{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container{
+    margin: auto;
+    padding: 20px 0;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    display: flex;
+    max-width: 180px;
+    gap: 10px;
+
+}
+.nav-title h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.nav-title img{
+    width: 80%;
+}
+.nav-manu ul{
+    display: flex;
+    gap: 25px;
+}
+.nav-manu ul li{
+    list-style: none;
+    
+}
+.nav-manu ul li a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+/* navbar style end  */
