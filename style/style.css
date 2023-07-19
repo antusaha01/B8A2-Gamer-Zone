@@ -241,7 +241,7 @@ font-weight: 700;
     position: relative;
     margin-left: 60px;
 }
-.img-section-img2{
+.img-section-img2{ 
     position: relative;
     bottom: 150px;
     height: 200px;
@@ -260,3 +260,69 @@ font-weight: 700;
     
 }
 /* play section end */
+
+/* game list section start  */
+
+/* game list section end  */
+
+/* footer start */
+footer{
+    height: 500px;
+    background: #0B0223;
+    margin: auto;
+}
+.footer-container{
+    max-width: 1440px;
+    margin: auto;
+    padding-top: 120px;
+    align-items: center;
+}
+.footer-menu{
+    color: #fff;
+    margin-top: 30px;
+}
+.footer-menu ul{
+    max-width: 700px;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-icon{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.footer-icon a i{
+    color: #fff;
+}
+.footer-list{
+    color: rgba(255, 255, 255, 0.60);
+}
+.footer-list ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    margin-top: 15px;
+}
+.footer-logo{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.footer-logo img{
+    text-align: center;
+}
+.footer-logo h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+/* footer end */
