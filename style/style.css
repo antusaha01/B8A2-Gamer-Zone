@@ -47,6 +47,7 @@
 
 /* navbar style start  */
 nav{
+    background-color: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .nav-container{
@@ -207,3 +208,55 @@ font-weight: 700;
     margin-top: 24px;
 }
 /* online games section end  */
+
+/* play section start */
+.play-section{
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 120px;
+}
+.play-section-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    max-width: 341px;
+    color: #0B0223;
+    text-align: right;
+}
+.play-section-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-section-description{
+    color: #534C64;
+    font-weight: 400;
+    max-width: 352px;
+    text-align: right;
+    margin-top: 24px;
+}
+.img-section-img1{
+    width: 70%;
+    height: 90%;
+    position: relative;
+    margin-left: 60px;
+}
+.img-section-img2{
+    position: relative;
+    bottom: 150px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+.play-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: right;
+    gap: 100px;
+}
+.play-section-content{
+    text-align: right;
+    
+}
+/* play section end */
