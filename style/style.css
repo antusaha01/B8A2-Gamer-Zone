@@ -62,7 +62,13 @@ nav{
     display: flex;
     max-width: 180px;
     gap: 10px;
-
+}
+.nav-btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    border: none;
+    font-size: 1rem;
 }
 .nav-title h2{
     font-size: 2.5rem;
@@ -74,6 +80,7 @@ nav{
 .nav-manu ul{
     display: flex;
     gap: 25px;
+    align-items: center;
 }
 .nav-manu ul li{
     list-style: none;
