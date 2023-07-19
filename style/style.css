@@ -205,7 +205,7 @@ font-weight: 700;
 }
 .online-games-section-card-container{
     display: flex;
-    gap: 24px;
+    justify-content: space-around;
     margin-top: 48px;
 }
 .online-games-section-card-description{
@@ -213,6 +213,9 @@ font-weight: 700;
     font-weight: 500;
     max-width: 342px;
     margin-top: 24px;
+}
+.online-games-section-card img{
+    height: 80%;
 }
 /* online games section end  */
 
@@ -269,6 +272,42 @@ font-weight: 700;
 /* play section end */
 
 /* game list section start  */
+.game-list{
+    height: 400px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.game-list-container{
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.game-list-btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px 10px 10px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #0B0223;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.game-list-btn:hover{
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px 10px 10px;
+    border-radius: 50px;
+    border: 2px solid #FF42A5;
+    background-color: #fff;
+    color: #FF42A5;
+}
+.game-list-btn span{
+    font-size: 1.2rem;
+}
 
 /* game list section end  */
 
